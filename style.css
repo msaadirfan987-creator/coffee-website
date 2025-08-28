@@ -604,18 +604,28 @@ img {
 
 
 @media only screen and (min-width: 0px) and (max-width: 529px) {
-
+.navbar {
+    display: flex;
+    width: 470px;
+    justify-content: space-between;
+    background-color: #3b141c;
+    /* background-color: #252525; */
+    color: white;
+    /* padding-top: 17px; */
+}
     .navlist {
+        /* width: 470px; */
         margin-left: 0px;
         padding: 0px;
         margin-top: 10px;
+        /* width: 100%; */
     }
 
     .hero-section {
         background-color: #3b141c;
         display: flex;
         flex-direction: column-reverse;
-        /* width: 1360px; */
+        width: 470px;
     }
 
     .navbar ul {
@@ -662,16 +672,20 @@ img {
         display: block;
         text-align: center;
         margin-right: 10px;
+        /* background-color: red; */
     }
 
     .description {
         max-width: 100%;
         line-height: 30px;
+       
+        /* background-color: red; */
+
     }
 
     .menubtn {
         display: block;
-        margin-right: 20px;
+        /* margin-right: px; */
 
     }
 
@@ -696,14 +710,19 @@ img {
     .aboutimage img {
         height: 300px;
         width: 250px;
-        border-radius: 200%;
-        margin-left: 10px;
-        /* object-fit: contain; */
+       
+        margin-left: 30px;
+        object-fit: cover;
+        border-radius: 50%;
 
     }
 
     .content-2 {
         margin-top: -60px;
+        /* background-color: red; */
+        max-width: 100%;
+        text-align: center;
+        margin-left: 30px;
     }
 
     .content-2 h2 {
@@ -713,9 +732,14 @@ img {
     }
 
     .content-2 p {
-        max-width: 100%;
-        text-align: center;
-        margin-right: 80px;
+        /* max-width: 100%; */
+        /* text-align: center; */
+        /* margin-right: 80px; */
+         margin-left: 60px;
+         background-color: red;
+         max-height: 00%;
+         display: flex;
+         flex-wrap: wrap;
     }
 
     .imagecontainer .image-1 {
@@ -760,6 +784,16 @@ img {
 }
 .left{
     margin-top: 10px;
+}
+.menusection {
+    width: 470px;
+
+}
+.termensition{
+    margin-left: 100px;
+}
+.gallersection{
+    margin-left: 50px;
 }
 
 }
