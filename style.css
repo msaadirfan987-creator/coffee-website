@@ -41,6 +41,10 @@ img {
 /* header  */
 /* navbar */
 .navbar {
+    position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
     display: flex;
     justify-content: space-between;
     background-color: #3b141c;
@@ -105,6 +109,7 @@ img {
 
 .image-wrapper .image {
     max-width: 500px;
+    height: 100vh;
     /* width: 100px; */
     /* height: 250px; */
 }
@@ -249,11 +254,13 @@ img {
     gap: 50px;
     margin-left: 100px;
     margin-top: 80px;
+    
 }
 
 .imagecontainer img {
     height: 200px;
     width: 200px;
+
 
 
 
@@ -265,6 +272,8 @@ img {
 
 .imagecontainer p {
     max-width: 70%;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .seection-title {
@@ -325,10 +334,12 @@ img {
 
 .gallerybox:hover {
     transform: scale(1.1);
+     transition: 0.8s ease;
 }
 
 .gallerybox img {
     height: 300px;
+    /* transition: 1s ease; */
 }
 
 /* 7contact section */
