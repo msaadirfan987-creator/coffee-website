@@ -736,7 +736,7 @@ img {
         /* text-align: center; */
         /* margin-right: 80px; */
          margin-left: 60px;
-         background-color: red;
+         /* background-color: red; */
          max-height: 00%;
          display: flex;
          flex-wrap: wrap;
